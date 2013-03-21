@@ -33,6 +33,27 @@ Also add the jMenu UI CSS to your application.css:
  */
  ```
  
+Finally, you can make coffeescript as like:
+
+```
+jQuery ->
+  $("#jMenu").jMenu
+    openClick: false
+    ulWidth: "auto"
+    effects:
+      effectSpeedOpen: 150
+      effectSpeedClose: 150
+      effectTypeOpen: "slide"
+      effectTypeClose: "hide"
+      effectOpen: "linear"
+      effectClose: "linear"
+
+    TimeBeforeOpening: 100
+    TimeBeforeClosing: 11
+    animatedText: false
+    paddingLeft: 1 
+```
+ 
 ## Notes
 
 Renamed jMenu.jquery.css to jMenu.jquery.css.erb and inserted ERB code to the url source of background-image tags. 
