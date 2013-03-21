@@ -1,12 +1,12 @@
 # Jmenu::Rails
 
-TODO: Write a gem description
+Gemified the jMenu jquery plugin to use with assets pipeline in Rails projects.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'jmenu-rails'
+    gem 'jmenu-rails', github: 'rorlab/jmenu-rails'
 
 And then execute:
 
@@ -18,7 +18,43 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To require jMenu UI modules, add the following to your application.js:
+
+```
+//= require jMenu.jquery
+```
+
+Also add the jMenu UI CSS to your application.css:
+
+```
+/*
+ *= require jMenu.jquery
+ */
+ ```
+ 
+## Notes
+
+Renamed jMenu.jquery.css to jMenu.jquery.css.erb and inserted ERB code to the url source of background-image tags. 
+
+```
+.jMenu li ul li.arrow {
+    background-color: #322f32;
+    background-image: url(<%= image_path('arrow_down.png') %>);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 6px;
+    padding: 0;
+    border-bottom: none;
+    padding-bottom: 10px
+}
+
+.jMenu li ul li a.isParent {
+    background-color: #3a3a3a;
+    background-image: url(<%= image_path('arrow_right.png') %>);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+```
 
 ## Contributing
 
