@@ -1,6 +1,7 @@
 # Jmenu::Rails
 
 Gemified the jMenu jquery plugin to use with assets pipeline in Rails projects.
+Original source : https://github.com/alpixel/jMenu
 
 ## Installation
 
