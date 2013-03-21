@@ -79,6 +79,32 @@ Renamed jMenu.jquery.css to jMenu.jquery.css.erb and inserted ERB code to the ur
 }
 ```
 
+Default theme color is darkgray and so, if you want the light theme color, added the followings to your custom stylesheet:
+
+```
+.jMenu li {
+  background-color: #eaeaea !important;
+}
+.jMenu li a {
+  color:gray !important;
+}
+.jMenu li ul li {
+    background-color: #eaeaea !important;
+    border-bottom: 1px solid #eaeaea !important;
+}
+.jMenu li ul li.arrow {
+    background-color: #eaeaea !important;
+}
+.jMenu li ul li a.isParent {
+    background-color: #eaeaea !important;
+}
+.jMenu li ul li a:hover {
+    background-color: #c4c4c4 !important;
+    border-top: 1px solid #eaeaea !important;
+    border-bottom: 1px solid #eaeaea !important;
+}
+```
+
 ## Contributing
 
 1. Fork it
