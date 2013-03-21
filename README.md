@@ -105,6 +105,8 @@ Default theme color is darkgray and so, if you want the light theme color, added
 }
 ```
 
+[See the example script for light theme](https://github.com/rorlab/jmenu-rails/wiki/Examples-for-light-theme)
+
 ## Contributing
 
 1. Fork it
