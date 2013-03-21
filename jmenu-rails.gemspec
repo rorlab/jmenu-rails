@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["rorlab@gmail.com"]
   gem.description   = %q{jMenu jquery plugin for rails}
   gem.summary       = %q{Gemify jMenu assets for rails}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/rorlab/jmenu-rails"
   gem.license       = "MIT"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
