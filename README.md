@@ -8,7 +8,7 @@ Original source : https://github.com/alpixel/jMenu
 
 Add this line to your application's Gemfile:
 
-    gem 'jmenu-rails', github: 'rorlab/jmenu-rails'
+    gem "jmenu-rails", "~> 1.9"
 
 And then execute:
 
