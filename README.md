@@ -79,6 +79,8 @@ Renamed jMenu.jquery.css to jMenu.jquery.css.erb and inserted ERB code to the ur
 }
 ```
 
+![See the orinal theme.](http://i1184.photobucket.com/albums/z322/hschoimd/jmenu-1.png?t=1363870854)
+
 Default theme color is darkgray and so, if you want the light theme color, added the followings to your custom stylesheet:
 
 ```
