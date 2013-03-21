@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec"
-  gem.add_dependency "railties", "~> 4.0.0.beta1"
+  # gem.add_dependency "railties", "~> 4.0.0.beta1"
 end
